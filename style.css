@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f6f6f6;
+}
+
+section {
+    margin: 2.5em 0 0 2.5em;
+    height: 100vh;
+}
+
+.ex-title {
+    text-decoration: underline;
+}
+
+section h1 {
+    font-size: 1.9em;
+    color: darkblue;
+}
+
+section h3 {
+    margin: 0.8em 0;
+    background-color: #b0c9ee;
+    padding: 0.6em 1.2em;
+    width: 50%;
+    border-radius: 0.2em;
+    font-size: 1.25em;
+}
+
+section form {
+    margin: 1.4em 0;
+}
+
+section form p {
+    line-height: 1.75em;
+    margin: 0.6em 0;
+    font-size: 1.1em;
+}
+
+section form p input[type=text] {
+    outline: none;
+    height: 1.75em;
+    width: 14%;
+    /* border: 0;
+    background-color: #dfe; */
+}
+
+section form p .number {
+    float: left;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    height: 1.75em;
+    width: 1.75em;
+    padding: 0;
+    margin: 0 .5em 0 0;
+    line-height: 1.75em;
+    font-weight: 600;
+}
+
+.fa-circle-check {
+    color: green;
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+.fa-circle-xmark {
+    color: red;
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+input[type="submit"]  {
+    border-radius: 0.6em;
+    padding: 0.5em 2em;
+    margin: 1.4em 0 0;
+    box-shadow: none;
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(137, 152, 212);
+    color: black;
+}
+
+#try-again {
+    border-radius: 0.6em;
+    padding: 0.5em 2em;
+    margin: 1.4em 0 0 0.5em;
+    box-shadow: none;
+    background-color: #b0c9ee;
+    color: darkblue;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#try-again:hover {
+    background-color: rgb(137, 152, 212);
+    color: black;
+}
